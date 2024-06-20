@@ -7,11 +7,132 @@
     <link href="./src/output.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="w-full h-[20px] bg-black justify-between float-start  px-2 fl py-4">
-    <div class="logo  text-purple-600 ">
+    <nav class="w-full h-[20px] text-[16px] fixed shadow-lg bg-black justify-between float-start flex items-center px-5 fl py-5">
+    <div class="logo text-[20px] font-semibold text-purple-600 ">
     logo
     </div>
+
+    <div class="nav-items text-white flex gap-5">
+        <h1 class="option">Home</h1>
+        <h1 class="option">About</h1>
+        <h1 class="">Category</h1>
+        <h1>Offers</h1>
+
+        <button class="ml-14 bg-white text-black px-2 py-1 rounded-lg">Sign Up</button>
+    </div>
     </nav>
+
+    <!-- landing -->
+    <div class="landing flex px-10 pt-[20px] w-full h-full flex-wrap">
+        <div class="left-part  pt-5 text-3xl md:text-8xl font-bold leading-none tracking-tight flex flex-col  justify-center w-[45%]">
+           
+            <h1>One Chai</h1>
+            <h1>With Saving</h1>
+            <h1>Full Cravings</h1>
+       
+        </div>
+
+        <div class="right-part h-full w-[45%] flex justify-end items-center ml-[100px] pt-[40px]">
+            <img src="./public/img4.jpg" alt="logo">
+        </div>
+    </div>
+
+    <!-- trending -->
+     <div class="trending  bg-gray-700 rounded-t-xl py-4 px-10 flex flex-col ">
+        <h1 class=" m-auto uppercase text-6xl font-bold text-white tracking-tight [word-spacing:25px] ">whats Trending?</h1>
+        <div class="items-wrapper m-auto  py-5 gap-10 flex flex-wrap ">
+
+            <div class="inner-wrapper flex flex-col p-3 rounded-lg bg-gray-600 shadow-xl ">
+                <div class="img">
+                    <img class="w-[200px] rounded-lg  h-[200px]" src="./public/img4.jpg" alt="logo">
+                </div>
+                <div class="name font-semibold text-gray-300 capitalize m-auto ">
+                    name
+                </div>
+                <div class="price  text-gray-300 capitalize m-auto ">
+                    ₹40
+                </div>
+                
+            </div>
+            <div class="inner-wrapper flex flex-col p-3 rounded-lg bg-gray-600 shadow-xl ">
+                <div class="img">
+                    <img class="w-[200px] rounded-lg  h-[200px]" src="./public/img4.jpg" alt="logo">
+                </div>
+                <div class="name font-semibold text-gray-300 capitalize m-auto ">
+                    name
+                </div>
+                <div class="price  text-gray-300 capitalize m-auto font-semibold">
+                    Price 40/-
+                </div>
+                
+            </div>
+
+            <div class="inner-wrapper flex flex-col p-3 rounded-lg bg-gray-600 shadow-xl ">
+                <div class="img">
+                    <img class="w-[200px] rounded-lg  h-[200px]" src="./public/img4.jpg" alt="logo">
+                </div>
+                <div class="name font-semibold text-gray-300 capitalize m-auto ">
+                    name
+                </div>
+                <div class="price  text-gray-300 capitalize m-auto font-semibold ">
+                    Price 40/-
+                </div>
+                
+            </div>
+
+            <div class="inner-wrapper flex flex-col p-3 rounded-lg bg-gray-600 shadow-xl ">
+                <div class="img">
+                    <img class="w-[200px] rounded-lg  h-[200px]" src="./public/img4.jpg" alt="logo">
+                </div>
+                <div class="name font-semibold text-gray-300 capitalize m-auto ">
+                    name
+                </div>
+                <div class="price  text-gray-300 capitalize m-auto font-semibold ">
+                    Price 40/-
+                </div>
+                
+            </div>
+
+            <div class="inner-wrapper flex flex-col p-3 rounded-lg bg-gray-600 shadow-xl ">
+                <div class="img">
+                    <img class="w-[200px] rounded-lg  h-[200px]" src="./public/img4.jpg" alt="logo">
+                </div>
+                <div class="name font-bold text-gray-300 capitalize m-auto ">
+                    name
+                </div>
+                <div class="price  text-gray-300 capitalize m-auto font-semibold">
+                    Price 40/-
+                </div>
+                
+            </div>
+        </div>
+     </div>
+
+      <!-- footr -->
+        <footer class="w-full bg-slate-900">
+            <div class="footer-wrapper py-8 flex flex-col">
+                <div class="items m-auto">
+                    <div class="flex flex-col">
+                    <h1 class="uppercase m-auto text-2xl text-white font-bold ">Useful links</h1>
+                    <span class="w-[175px] h-[6px] bg-purple-800 rounded-lg"></span>
+                </div>
+                <div class="flex flex-col text-lg text-white font-semibold">
+                <h1 class="m-auto">Home</h1>
+                <h1 class="m-auto">Categories</h1>
+                <h1 class="m-auto">About Us</h1>
+            </div>
+           
+                </div>
+            </div>
+            <div class="bottom w-full flex justify-center items-center bg-slate-950 py-2 ">
+                <div class="capitalize font-bold text-white text-xl">
+                    Vloggers food
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
     
 </body>
 </html>

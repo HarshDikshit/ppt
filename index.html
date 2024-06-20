@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="./src/output.css" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
-    <nav class="w-full h-[20px] text-[16px] fixed shadow-lg bg-black justify-between float-start flex items-center px-5 fl py-5">
+    <nav class="w-full z-[999] h-[20px] text-[16px] fixed shadow-lg bg-black justify-between float-start flex items-center px-5 fl py-5">
     <div class="logo text-[20px] font-semibold text-purple-600 ">
     logo
     </div>
 
-    <div class="nav-items text-white flex gap-5">
+    <div class="nav-items hidden md:block  text-white md:flex gap-5">
         <h1 class="option">Home</h1>
         <h1 class="option">About</h1>
         <h1 class="">Category</h1>
@@ -20,11 +24,16 @@
 
         <button class="ml-14 bg-white text-black px-2 py-1 rounded-lg">Sign Up</button>
     </div>
+
+    <i id="menu" class="ri-menu-3-line md:hidden block text-white text-2xl"></i>
+
+   
+
     </nav>
 
     <!-- landing -->
-    <div class="landing flex px-10 pt-[20px] w-full h-full flex-wrap">
-        <div class="left-part  pt-5 text-3xl md:text-8xl font-bold leading-none tracking-tight flex flex-col  justify-center w-[45%]">
+    <div class="landing min-h-screen flex px-10 pt-[20px] w-full h-full flex-wrap">
+        <div class="left-part  pt-5 text-5xl md:text-8xl font-bold leading-none w-full tracking-tight flex flex-col  justify-center md:w-[45%]">
            
             <h1>One Chai</h1>
             <h1>With Saving</h1>
@@ -32,9 +41,19 @@
        
         </div>
 
-        <div class="right-part h-full w-[45%] flex justify-end items-center ml-[100px] pt-[40px]">
+        <div class="right-part z-[0] h-full w-[45%] flex justify-end scale-[2] md:scale-[1] items-center ml-[100px] pt-[40px]">
             <img src="./public/img4.jpg" alt="logo">
         </div>
+    </div>
+
+    <!-- menu  -->
+    <div class="nav-it md:block w-full h-full absolute text-xl font-bold  text-white md:flex gap-5">
+        <span class="option">Home</span>
+        <h1 class="option">About</h1>
+        <h1 class="">Category</h1>
+        <h1>Offers</h1>
+
+        <button class="ml-14 bg-white text-black px-2 py-1 rounded-lg">Sign Up</button>
     </div>
 
     <!-- trending -->

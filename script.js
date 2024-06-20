@@ -21,3 +21,20 @@ tl
     opacity:0,
     stagger:0.3
 })
+.from('.inner-wrapper',{
+    x:100,
+    opacity:0,
+    stagger:0.3
+})
+
+gsap.set('.nav-it',{
+    opacity:0
+})
+document.querySelector('#menu').addEventListener('click',()=>{
+    gsap.from('.nav-it',{
+        x:'200%',
+        opacity:0
+    })
+})
+
+
